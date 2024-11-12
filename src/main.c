@@ -27,7 +27,7 @@ int main(int argc, char *argv[]){
 		printf("%lf",r);
 	}
 	else if (strcmp(op, "carré") == 25) {
-		r = _div(atof(a));
+		r = _carré(atof(a));
 		printf("%lf",r);
 	}
 	else {printf("Erreur de parametres");}
